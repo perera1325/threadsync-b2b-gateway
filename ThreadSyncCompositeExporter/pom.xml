@@ -39,7 +39,46 @@
       <type>xml</type>
     </dependency>
   </dependencies>
-
+  <repositories>
+    <repository>
+      <id>wso2-nexus</id>
+      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>daily</updatePolicy>
+        <checksumPolicy>ignore</checksumPolicy>
+      </releases>
+    </repository>
+    <repository>
+      <id>wso2-maven2-repository-1</id>
+      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>daily</updatePolicy>
+        <checksumPolicy>ignore</checksumPolicy>
+      </releases>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>wso2-nexus</id>
+      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>daily</updatePolicy>
+        <checksumPolicy>ignore</checksumPolicy>
+      </releases>
+    </pluginRepository>
+    <pluginRepository>
+      <id>wso2-maven2-repository-1</id>
+      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>daily</updatePolicy>
+        <checksumPolicy>ignore</checksumPolicy>
+      </releases>
+    </pluginRepository>
+  </pluginRepositories>
   <build>
     <plugins>
       <plugin>
