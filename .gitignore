@@ -1,0 +1,10 @@
+# WSO2 Micro Integrator
+target/
+.project
+.classpath
+.settings/
+.vscode/
+*.class
+*.jar
+*.car
+.DS_Store
