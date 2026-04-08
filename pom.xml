@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.threadsync.integration</groupId>
-    <artifactId>ThreadSyncIntegrationProject</artifactId>
-    <version>1.0.0</version>
-    <packaging>pom</packaging>
-    <name>ThreadSyncIntegrationProject</name>
-    <description>ThreadSync - AI Apparel B2B Gateway Project</description>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.threadsync.integration</groupId>
+  <artifactId>ThreadSyncIntegrationProject</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>ThreadSyncIntegrationProject</name>
+  <description>ThreadSync - AI Apparel B2B Gateway Project</description>
+  <properties>
+    <project.runtime.version>4.3.0</project.runtime.version>
+  </properties>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.wso2.maven</groupId>
+        <artifactId>vscode-car-plugin</artifactId>
+        <version>5.2.40</version>
+        <extensions>true</extensions>
+        <executions>
+          <execution>
+            <goals>
+              <goal>car</goal>
+            </goals>
+            <configuration/>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.wso2.maven</groupId>
+        <artifactId>wso2-mi-maven-plugin</artifactId>
+        <version>5.2.40</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
 </project>
