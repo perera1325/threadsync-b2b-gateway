@@ -43,62 +43,6 @@
     <directory>target/capp</directory>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>1.4.0</version>
-        <extensions>true</extensions>
-        <executions>
-          <execution>
-            <id>package</id>
-            <phase>package</phase>
-            <goals>
-              <goal>exec</goal>
-            </goals>
-            <configuration>
-              <executable>mvn</executable>
-              <workingDirectory>${project.build.directory}</workingDirectory>
-              <arguments>
-                <argument>clean</argument>
-                <argument>package</argument>
-                <argument>-Dmaven.test.skip=${maven.test.skip}</argument>
-              </arguments>
-            </configuration>
-          </execution>
-          <execution>
-            <id>install</id>
-            <phase>install</phase>
-            <goals>
-              <goal>exec</goal>
-            </goals>
-            <configuration>
-              <executable>mvn</executable>
-              <workingDirectory>${project.build.directory}</workingDirectory>
-              <arguments>
-                <argument>clean</argument>
-                <argument>install</argument>
-                <argument>-Dmaven.test.skip=${maven.test.skip}</argument>
-              </arguments>
-            </configuration>
-          </execution>
-          <execution>
-            <id>deploy</id>
-            <phase>deploy</phase>
-            <goals>
-              <goal>exec</goal>
-            </goals>
-            <configuration>
-              <executable>mvn</executable>
-              <workingDirectory>${project.build.directory}</workingDirectory>
-              <arguments>
-                <argument>deploy</argument>
-                <argument>-Dmaven.test.skip=${maven.test.skip}</argument>
-              </arguments>
-            </configuration>
-          </execution>
-        </executions>
-        <configuration />
-      </plugin>
-      <plugin>
         <artifactId>maven-eclipse-plugin</artifactId>
         <version>2.9</version>
         <configuration>
