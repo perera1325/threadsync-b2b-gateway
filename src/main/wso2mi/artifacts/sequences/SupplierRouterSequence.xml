@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SupplierRouterSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <filter source="get-property('RiskLevel')" regex="Elevated">
+        <then>
+            <log level="custom">
+                <property name="Routing" value="Risk is Elevated. Routing to MAS Holdings Fast-Track API..."/>
+            </log>
+            <payloadFactory media-type="json">
+                <format>{"status": "Order routed to Tier 1 Supplier (MAS)", "urgency": "High", "data": $1}</format>
+                <args>
+                    <arg evaluator="json" expression="$"/>
+                </args>
+            </payloadFactory>
+        </then>
+        <else>
+            <log level="custom">
+                <property name="Routing" value="Standard Risk. Routing to Standard SME Supplier Portal..."/>
+            </log>
+            <payloadFactory media-type="json">
+                <format>{"status": "Order routed to standard SME portal", "urgency": "Normal", "data": $1}</format>
+                <args>
+                    <arg evaluator="json" expression="$"/>
+                </args>
+            </payloadFactory>
+        </else>
+    </filter>
+    <respond/>
+</sequence>

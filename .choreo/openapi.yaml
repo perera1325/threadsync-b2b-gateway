@@ -1,0 +1,29 @@
+openapi: 3.0.0
+info:
+  title: ThreadSync AI-Driven B2B Gateway
+  version: 1.0.0
+  description: WSO2 Micro Integrator API used to parse B2B incoming EDI/Purchase Orders and route them via AI.
+servers:
+  - url: /b2b/threadsync
+paths:
+  /orders:
+    post:
+      summary: Submit a new B2B Purchase Order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                order_id:
+                  type: string
+                buyer:
+                  type: string
+                quantity:
+                  type: integer
+                item:
+                  type: string
+      responses:
+        '200':
+          description: Order routed successfully
