@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.threadsync.integration</groupId>
-    <artifactId>ThreadSync</artifactId>
+    <groupId>wso2.sampleHelloWorld</groupId>
+    <artifactId>hello</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.threadsync.integration</groupId>
+  <groupId>wso2.sampleHelloWorld</groupId>
   <artifactId>ThreadSyncConfigs</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -25,7 +25,7 @@
         <checksumPolicy>ignore</checksumPolicy>
       </releases>
       <id>wso2-nexus</id>
-      <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
     </repository>
   </repositories>
   <pluginRepositories>
@@ -36,7 +36,7 @@
         <checksumPolicy>ignore</checksumPolicy>
       </releases>
       <id>wso2-nexus</id>
-      <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
     </pluginRepository>
   </pluginRepositories>
   <build>
@@ -108,11 +108,10 @@
           </projectnatures>
         </configuration>
       </plugin>
-      <!-- Needed API generation plugin (from hello-world sample) -->
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>wso2-esb-api-plugin</artifactId>
-        <version>5.2.44</version>
+        <version>5.2.42</version>
         <extensions>true</extensions>
         <executions>
           <execution>
@@ -138,8 +137,35 @@
       </plugin>
       <plugin>
         <groupId>org.wso2.maven</groupId>
+        <artifactId>wso2-esb-metadata-plugin</artifactId>
+        <version>5.2.42</version>
+        <extensions>true</extensions>
+        <executions>
+          <execution>
+            <id>metadata</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>pom-gen</goal>
+            </goals>
+            <configuration>
+              <artifactLocation>.</artifactLocation>
+              <typeList>${artifact.types}</typeList>
+            </configuration>
+          </execution>
+        </executions>
+        <dependencies>
+          <dependency>
+            <groupId>com.sun.activation</groupId>
+            <artifactId>javax.activation</artifactId>
+            <version>1.2.0</version>
+          </dependency>
+        </dependencies>
+        <configuration />
+      </plugin>
+      <plugin>
+        <groupId>org.wso2.maven</groupId>
         <artifactId>wso2-esb-sequence-plugin</artifactId>
-        <version>5.2.44</version>
+        <version>5.2.42</version>
         <extensions>true</extensions>
         <executions>
           <execution>
@@ -154,6 +180,14 @@
             </configuration>
           </execution>
         </executions>
+        <dependencies>
+          <dependency>
+            <groupId>com.sun.activation</groupId>
+            <artifactId>javax.activation</artifactId>
+            <version>1.2.0</version>
+          </dependency>
+        </dependencies>
+        <configuration />
       </plugin>
     </plugins>
   </build>
