@@ -1,1 +1,1 @@
-Update ThreadSync architectural notes - Iteration 34
+Update ThreadSync architectural notes - Iteration 35
