@@ -1,0 +1,7 @@
+apiVersion: core.choreo.dev/v1beta1
+kind: ComponentConfig
+spec:
+  inbound:
+    - name: ThreadSync API
+      port: 8290
+      type: REST
