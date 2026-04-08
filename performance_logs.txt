@@ -1,1 +1,1 @@
-WSO2 Synapse performance tuning config update 26
+WSO2 Synapse performance tuning config update 27
