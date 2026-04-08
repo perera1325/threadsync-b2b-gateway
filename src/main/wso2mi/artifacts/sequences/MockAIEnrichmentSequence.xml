@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="MockAIEnrichmentSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property name="AI_Orchestrator" value="Analyzing Apparel Order via WSO2 AI Integrator..."/>
+    </log>
+    
+    <!-- Mocking a call to OpenAI/Choreo AI component -->
+    <!-- In reality, this would be a Call mediator to an AI LLM endpoint -->
+    <payloadFactory media-type="json">
+        <format>
+            {
+                "original_order": $1,
+                "ai_analysis": {
+                    "urgency": "High",
+                    "risk_level": "Elevated",
+                    "reasoning": "Cotton shortage detected in South Asia. Immediate routing recommended."
+                }
+            }
+        </format>
+        <args>
+            <arg evaluator="json" expression="$"/>
+        </args>
+    </payloadFactory>
+    
+    <property name="RiskLevel" expression="json-eval($.ai_analysis.risk_level)" scope="default" type="STRING"/>
+    
+    <log level="custom">
+        <property name="AI_Risk_Assessment" expression="get-property('RiskLevel')"/>
+    </log>
+</sequence>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/b2b/threadsync/orders" name="OrderReceiptAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST" uri-template="/">
+        <inSequence>
+            <log level="full">
+                <property name="Gateway" value="ThreadSync received new incoming B2B Order."/>
+            </log>
+            
+            <sequence key="MockAIEnrichmentSequence"/>
+            <sequence key="SupplierRouterSequence"/>
+            
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence>
+            <log level="custom">
+                <property name="ERROR" value="ThreadSync B2B Gateway encountered an error"/>
+            </log>
+            <payloadFactory media-type="json">
+                <format>{"error": "Failed to process order", "detail": "$1"}</format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('ERROR_MESSAGE')"/>
+                </args>
+            </payloadFactory>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>
