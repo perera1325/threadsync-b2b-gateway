@@ -9,4 +9,7 @@
     <artifact name="SupplierRouterSequence" groupId="com.threadsync.integration.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/sequences/SupplierRouterSequence.xml</file>
     </artifact>
+    <artifact name="InventoryStatusAPI" groupId="com.threadsync.integration.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/apis/InventoryStatusAPI.xml</file>
+    </artifact>
 </artifacts>

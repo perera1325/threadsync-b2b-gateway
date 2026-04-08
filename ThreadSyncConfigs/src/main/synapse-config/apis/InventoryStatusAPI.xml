@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/b2b/threadsync/inventory" name="InventoryStatusAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/{itemId}">
+        <inSequence>
+            <log level="full">
+                <property name="Gateway" value="ThreadSync received new incoming B2B Inventory Check."/>
+                <property name="ItemID" expression="get-property('uri.var.itemId')"/>
+            </log>
+            <payloadFactory media-type="json">
+                <format>{"itemId": "$1", "status": "Available", "quantity": 1500}</format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('uri.var.itemId')"/>
+                </args>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <faultSequence>
+            <log level="custom">
+                <property name="ERROR" value="ThreadSync B2B Gateway encountered an error during inventory check"/>
+            </log>
+            <payloadFactory media-type="json">
+                <format>{"error": "Failed to process inventory check", "detail": "$1"}</format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('ERROR_MESSAGE')"/>
+                </args>
+            </payloadFactory>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>
