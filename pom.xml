@@ -2,29 +2,18 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>wso2.sampleHelloWorld</groupId>
-  <artifactId>hello</artifactId>
+  <groupId>com.threadsync.integration</groupId>
+  <artifactId>ThreadSync</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>hello</name>
-  <description>hello</description>
+  <name>ThreadSync</name>
+  <description>ThreadSync - AI Apparel B2B Gateway Project</description>
   <modules>
     <module>ThreadSyncConfigs</module>
     <module>ThreadSyncCompositeExporter</module>
   </modules>
-  <scm>
-    <connection>scm:git:https://github.com/username/repository.git</connection>
-    <developerConnection>scm:git:https://github.com/username/repository.git</developerConnection>
-    <url>https://github.com/username/repository.git</url>
-  </scm>
-  <distributionManagement>
-    <repository>
-      <id>release</id>
-      <name>Release Distribution Repository</name>
-      <url>https://example.com/nexus/repository</url>
-    </repository>
-  </distributionManagement>
   <properties>
+    <project.runtime.version>4.3.0</project.runtime.version>
     <project.scm.id>integration-project</project.scm.id>
   </properties>
   <build>
