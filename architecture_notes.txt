@@ -1,1 +1,0 @@
-Update ThreadSync architectural notes - Iteration 40
