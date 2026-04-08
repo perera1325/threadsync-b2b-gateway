@@ -1,0 +1,443 @@
+﻿[INFO] Scanning for projects...
+[WARNING] 1 problem was encountered while building the effective model for org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1 during dependency collection step for plugin (use -X to see details)
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ThreadSync                                                         [pom]
+[INFO] ThreadSyncConfigs                                                  [pom]
+[INFO] ThreadSyncCompositeExporter                         [carbon/application]
+[INFO] 
+[INFO] ---------------< com.threadsync.integration:ThreadSync >----------------
+[INFO] Building ThreadSync 1.0.0-SNAPSHOT                                 [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ThreadSync ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ ThreadSync ---
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\pom.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\ThreadSync\1.0.0-SNAPSHOT\ThreadSync-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------< com.threadsync.integration:ThreadSyncConfigs >------------
+[INFO] Building ThreadSyncConfigs 1.0.0-SNAPSHOT                          [2/3]
+[INFO]   from ThreadSyncConfigs\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ThreadSyncConfigs ---
+[INFO] Deleting C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp
+[INFO] 
+[INFO] --- wso2-esb-api:5.2.42:pom-gen (api) @ ThreadSyncConfigs ---
+[INFO] Creating maven project for artifact OrderReceiptAPI:1.0.0...
+[INFO] 	generating maven project...
+[INFO] 	copying resources...
+[INFO] 
+[INFO] --- wso2-esb-metadata:5.2.42:pom-gen (metadata) @ ThreadSyncConfigs ---
+[INFO] 
+[INFO] --- wso2-esb-sequence:5.2.42:pom-gen (sequence) @ ThreadSyncConfigs ---
+[INFO] Creating maven project for artifact MockAIEnrichmentSequence:1.0.0...
+[INFO] 	generating maven project...
+[INFO] 	copying resources...
+[INFO] Creating maven project for artifact SupplierRouterSequence:1.0.0...
+[INFO] 	generating maven project...
+[INFO] 	copying resources...
+[INFO] 
+[INFO] --- exec:1.4.0:exec (package) @ ThreadSyncConfigs ---
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] OrderReceiptAPI                                            [synapse/api]
+[INFO] MockAIEnrichmentSequence                              [synapse/sequence]
+[INFO] SupplierRouterSequence                                [synapse/sequence]
+[INFO] ThreadSyncConfigs_module                                           [pom]
+[INFO] 
+[INFO] -----------< com.threadsync.integration.api:OrderReceiptAPI >-----------
+[INFO] Building OrderReceiptAPI 1.0.0                                     [1/4]
+[INFO]   from artifacts\api\OrderReceiptAPI\pom.xml
+[INFO] ----------------------------[ synapse/api ]-----------------------------
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-4: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.1.4
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-deploy-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-deploy-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-deploy-plugin:3.1.4
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ OrderReceiptAPI ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ OrderReceiptAPI ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\api\OrderReceiptAPI\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ OrderReceiptAPI ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ OrderReceiptAPI ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\api\OrderReceiptAPI\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ OrderReceiptAPI ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ OrderReceiptAPI ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- wso2-esb-api:5.2.42:package-api (default-package-api) @ OrderReceiptAPI ---
+[INFO] 
+[INFO] ----< com.threadsync.integration.sequence:MockAIEnrichmentSequence >----
+[INFO] Building MockAIEnrichmentSequence 1.0.0                            [2/4]
+[INFO]   from artifacts\sequence\MockAIEnrichmentSequence\pom.xml
+[INFO] --------------------------[ synapse/sequence ]--------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ MockAIEnrichmentSequence ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ MockAIEnrichmentSequence ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\MockAIEnrichmentSequence\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ MockAIEnrichmentSequence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ MockAIEnrichmentSequence ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\MockAIEnrichmentSequence\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ MockAIEnrichmentSequence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ MockAIEnrichmentSequence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- wso2-esb-sequence:5.2.42:package-sequence (default-package-sequence) @ MockAIEnrichmentSequence ---
+[INFO] 
+[INFO] -----< com.threadsync.integration.sequence:SupplierRouterSequence >-----
+[INFO] Building SupplierRouterSequence 1.0.0                              [3/4]
+[INFO]   from artifacts\sequence\SupplierRouterSequence\pom.xml
+[INFO] --------------------------[ synapse/sequence ]--------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ SupplierRouterSequence ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ SupplierRouterSequence ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\SupplierRouterSequence\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ SupplierRouterSequence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ SupplierRouterSequence ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\SupplierRouterSequence\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ SupplierRouterSequence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ SupplierRouterSequence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- wso2-esb-sequence:5.2.42:package-sequence (default-package-sequence) @ SupplierRouterSequence ---
+[INFO] 
+[INFO] --------< com.threadsync.integration:ThreadSyncConfigs_module >---------
+[INFO] Building ThreadSyncConfigs_module 1.0.0-SNAPSHOT                   [4/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ThreadSyncConfigs_module ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] OrderReceiptAPI 1.0.0 .............................. SUCCESS [  1.375 s]
+[INFO] MockAIEnrichmentSequence 1.0.0 ..................... SUCCESS [  0.518 s]
+[INFO] SupplierRouterSequence 1.0.0 ....................... SUCCESS [  0.046 s]
+[INFO] ThreadSyncConfigs_module 1.0.0-SNAPSHOT ............ SUCCESS [  0.053 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.602 s
+[INFO] Finished at: 2026-04-08T12:44:57+05:30
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ ThreadSyncConfigs ---
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\pom.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\ThreadSyncConfigs\1.0.0-SNAPSHOT\ThreadSyncConfigs-1.0.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- exec:1.4.0:exec (install) @ ThreadSyncConfigs ---
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] OrderReceiptAPI                                            [synapse/api]
+[INFO] MockAIEnrichmentSequence                              [synapse/sequence]
+[INFO] SupplierRouterSequence                                [synapse/sequence]
+[INFO] ThreadSyncConfigs_module                                           [pom]
+[INFO] 
+[INFO] -----------< com.threadsync.integration.api:OrderReceiptAPI >-----------
+[INFO] Building OrderReceiptAPI 1.0.0                                     [1/4]
+[INFO]   from artifacts\api\OrderReceiptAPI\pom.xml
+[INFO] ----------------------------[ synapse/api ]-----------------------------
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-4: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.1.4
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-deploy-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-deploy-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-deploy-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-deploy-plugin:3.1.4
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ OrderReceiptAPI ---
+[INFO] Deleting C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\api\OrderReceiptAPI\target
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ OrderReceiptAPI ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\api\OrderReceiptAPI\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ OrderReceiptAPI ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ OrderReceiptAPI ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\api\OrderReceiptAPI\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ OrderReceiptAPI ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ OrderReceiptAPI ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- wso2-esb-api:5.2.42:package-api (default-package-api) @ OrderReceiptAPI ---
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ OrderReceiptAPI ---
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\api\OrderReceiptAPI\pom.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\api\OrderReceiptAPI\1.0.0\OrderReceiptAPI-1.0.0.pom
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\api\OrderReceiptAPI\target\OrderReceiptAPI-1.0.0.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\api\OrderReceiptAPI\1.0.0\OrderReceiptAPI-1.0.0.xml
+[INFO] 
+[INFO] ----< com.threadsync.integration.sequence:MockAIEnrichmentSequence >----
+[INFO] Building MockAIEnrichmentSequence 1.0.0                            [2/4]
+[INFO]   from artifacts\sequence\MockAIEnrichmentSequence\pom.xml
+[INFO] --------------------------[ synapse/sequence ]--------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ MockAIEnrichmentSequence ---
+[INFO] Deleting C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\MockAIEnrichmentSequence\target
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ MockAIEnrichmentSequence ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\MockAIEnrichmentSequence\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ MockAIEnrichmentSequence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ MockAIEnrichmentSequence ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\MockAIEnrichmentSequence\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ MockAIEnrichmentSequence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ MockAIEnrichmentSequence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- wso2-esb-sequence:5.2.42:package-sequence (default-package-sequence) @ MockAIEnrichmentSequence ---
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ MockAIEnrichmentSequence ---
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\MockAIEnrichmentSequence\pom.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\sequence\MockAIEnrichmentSequence\1.0.0\MockAIEnrichmentSequence-1.0.0.pom
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\MockAIEnrichmentSequence\target\MockAIEnrichmentSequence.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\sequence\MockAIEnrichmentSequence\1.0.0\MockAIEnrichmentSequence-1.0.0.xml
+[INFO] 
+[INFO] -----< com.threadsync.integration.sequence:SupplierRouterSequence >-----
+[INFO] Building SupplierRouterSequence 1.0.0                              [3/4]
+[INFO]   from artifacts\sequence\SupplierRouterSequence\pom.xml
+[INFO] --------------------------[ synapse/sequence ]--------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ SupplierRouterSequence ---
+[INFO] Deleting C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\SupplierRouterSequence\target
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ SupplierRouterSequence ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\SupplierRouterSequence\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ SupplierRouterSequence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ SupplierRouterSequence ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\SupplierRouterSequence\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ SupplierRouterSequence ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ SupplierRouterSequence ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- wso2-esb-sequence:5.2.42:package-sequence (default-package-sequence) @ SupplierRouterSequence ---
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ SupplierRouterSequence ---
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\SupplierRouterSequence\pom.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\sequence\SupplierRouterSequence\1.0.0\SupplierRouterSequence-1.0.0.pom
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts\sequence\SupplierRouterSequence\target\SupplierRouterSequence.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\sequence\SupplierRouterSequence\1.0.0\SupplierRouterSequence-1.0.0.xml
+[INFO] 
+[INFO] --------< com.threadsync.integration:ThreadSyncConfigs_module >---------
+[INFO] Building ThreadSyncConfigs_module 1.0.0-SNAPSHOT                   [4/4]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ThreadSyncConfigs_module ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ ThreadSyncConfigs_module ---
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\pom.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\ThreadSyncConfigs_module\1.0.0-SNAPSHOT\ThreadSyncConfigs_module-1.0.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] OrderReceiptAPI 1.0.0 .............................. SUCCESS [  1.503 s]
+[INFO] MockAIEnrichmentSequence 1.0.0 ..................... SUCCESS [  0.608 s]
+[INFO] SupplierRouterSequence 1.0.0 ....................... SUCCESS [  0.074 s]
+[INFO] ThreadSyncConfigs_module 1.0.0-SNAPSHOT ............ SUCCESS [  0.150 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.742 s
+[INFO] Finished at: 2026-04-08T12:45:05+05:30
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] -------< com.threadsync.integration:ThreadSyncCompositeExporter >-------
+[INFO] Building ThreadSyncCompositeExporter 1.0.0-SNAPSHOT                [3/3]
+[INFO]   from ThreadSyncCompositeExporter\pom.xml
+[INFO] -------------------------[ carbon/application ]-------------------------
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[INFO] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-4: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-4 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-compiler-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-compiler-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-3: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-3 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-4 is not met by current version 3.9.12
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-compiler-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-2 has unmet prerequisites: 
+	Required Maven version 4.0.0-rc-2 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-install-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-install-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1: 
+The plugin org.apache.maven.plugins:maven-install-plugin:4.0.0-beta-1 has unmet prerequisites: 
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-install-plugin:3.1.4
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ThreadSyncCompositeExporter ---
+[INFO] Deleting C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncCompositeExporter\target
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ ThreadSyncCompositeExporter ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncCompositeExporter\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ ThreadSyncCompositeExporter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ ThreadSyncCompositeExporter ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncCompositeExporter\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ ThreadSyncCompositeExporter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ ThreadSyncCompositeExporter ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- car:5.2.42:car (default-car) @ ThreadSyncCompositeExporter ---
+[INFO] Generating artifact descriptor for artifact: MockAIEnrichmentSequence
+[INFO] Copying artifact content to target location.
+[INFO] Generating artifact descriptor for artifact: OrderReceiptAPI
+[INFO] Copying artifact content to target location.
+[INFO] Generating artifact descriptor for artifact: SupplierRouterSequence
+[INFO] Copying artifact content to target location.
+[INFO] 
+[INFO] --- car:5.2.42:car (car) @ ThreadSyncCompositeExporter ---
+[INFO] Generating artifact descriptor for artifact: MockAIEnrichmentSequence
+[INFO] Copying artifact content to target location.
+[INFO] Generating artifact descriptor for artifact: OrderReceiptAPI
+[INFO] Copying artifact content to target location.
+[INFO] Generating artifact descriptor for artifact: SupplierRouterSequence
+[INFO] Copying artifact content to target location.
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ ThreadSyncCompositeExporter ---
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncCompositeExporter\pom.xml to C:\Users\vikum\.m2\repository\com\threadsync\integration\ThreadSyncCompositeExporter\1.0.0-SNAPSHOT\ThreadSyncCompositeExporter-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncCompositeExporter\target\ThreadSyncCompositeExporter_1.0.0-SNAPSHOT.car to C:\Users\vikum\.m2\repository\com\threadsync\integration\ThreadSyncCompositeExporter\1.0.0-SNAPSHOT\ThreadSyncCompositeExporter-1.0.0-SNAPSHOT.car
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for ThreadSync 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] ThreadSync ......................................... SUCCESS [  0.414 s]
+[INFO] ThreadSyncConfigs .................................. SUCCESS [ 15.881 s]
+[INFO] ThreadSyncCompositeExporter ........................ SUCCESS [  1.993 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.634 s
+[INFO] Finished at: 2026-04-08T12:45:07+05:30
+[INFO] ------------------------------------------------------------------------

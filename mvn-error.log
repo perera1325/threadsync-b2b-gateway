@@ -1,0 +1,29 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Unresolveable build extension: Plugin org.wso2.maven:wso2-esb-api-plugin:5.2.44 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.wso2.maven:wso2-esb-api-plugin:jar:5.2.44
+ @ 
+[ERROR] Unresolveable build extension: Plugin org.wso2.maven:maven-car-plugin:5.2.44 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.wso2.maven:maven-car-plugin:jar:5.2.44
+ @ 
+[ERROR] Unknown packaging: carbon/application @ line 13, column 14
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.threadsync.integration:ThreadSyncConfigs:1.0.0-SNAPSHOT (C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\pom.xml) has 1 error
+[ERROR]     Unresolveable build extension: Plugin org.wso2.maven:wso2-esb-api-plugin:5.2.44 or one of its dependencies could not be resolved:
+[ERROR]     	Failed to read artifact descriptor for org.wso2.maven:wso2-esb-api-plugin:jar:5.2.44
+[ERROR]     -> [Help 2]
+[ERROR]   
+[ERROR]   The project com.threadsync.integration:ThreadSyncCompositeExporter:1.0.0-SNAPSHOT (C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncCompositeExporter\pom.xml) has 2 errors
+[ERROR]     Unresolveable build extension: Plugin org.wso2.maven:maven-car-plugin:5.2.44 or one of its dependencies could not be resolved:
+[ERROR]     	Failed to read artifact descriptor for org.wso2.maven:maven-car-plugin:jar:5.2.44
+[ERROR]     -> [Help 2]
+[ERROR]     Unknown packaging: carbon/application @ line 13, column 14
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/PluginManagerException

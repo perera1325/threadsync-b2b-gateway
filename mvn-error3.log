@@ -1,0 +1,831 @@
+Apache Maven 3.9.12 (848fbb4bf2d427b72bdb2471c22fced7ebd9a7a1)
+Maven home: C:\Program Files\apache-maven-3.9.12
+Java version: 17.0.17, vendor: Eclipse Adoptium, runtime: C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from C:\Program Files\apache-maven-3.9.12\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\vikum\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Program Files\apache-maven-3.9.12\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\vikum\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\vikum\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\vikum\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/).
+[DEBUG] Extension realms for project com.threadsync.integration:ThreadSync:pom:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Creating adapter using nameMapper 'gaecv' and factory 'rwlock-local'
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus-snapshots (http://nexus.codehaus.org/snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=2647700, ConflictMarker.markTime=466200, ConflictMarker.nodeCount=136, ConflictIdSorter.graphTime=1614401, ConflictIdSorter.topsortTime=1540300, ConflictIdSorter.conflictIdCount=35, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=14206700, ConflictResolver.conflictItemCount=78, DfDependencyCollector.collectTime=513007300, DfDependencyCollector.transformTime=24658300}
+[DEBUG] org.codehaus.mojo:exec-maven-plugin:jar:1.4.0
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.11:test (scope managed from default) (version managed from default)
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    org.apache.commons:commons-exec:jar:1.3:compile
+[DEBUG] Created new class realm extension>org.codehaus.mojo:exec-maven-plugin:1.4.0
+[DEBUG] Importing foreign packages into class realm extension>org.codehaus.mojo:exec-maven-plugin:1.4.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.codehaus.mojo:exec-maven-plugin:1.4.0
+[DEBUG]   Included: org.codehaus.mojo:exec-maven-plugin:jar:1.4.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.3
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache-snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus-snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[INFO] Artifact org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Writing tracking file 'C:\Users\vikum\.m2\repository\org\apache\ws\commons\axiom\wso2\axiom\1.2.11.wso2v4\axiom-1.2.11.wso2v4.pom.lastUpdated'
+[DEBUG] Resolving artifact org.wso2.maven:org.wso2.maven.esb:pom:2.1.0 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.wso2.maven:org.wso2.maven.esb:pom:2.1.0 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Writing tracking file 'C:\Users\vikum\.m2\repository\org\wso2\maven\org.wso2.maven.esb\2.1.0\org.wso2.maven.esb-2.1.0.pom.lastUpdated'
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=1718800, ConflictMarker.markTime=702100, ConflictMarker.nodeCount=148, ConflictIdSorter.graphTime=436000, ConflictIdSorter.topsortTime=64699, ConflictIdSorter.conflictIdCount=34, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2350300, ConflictResolver.conflictItemCount=77, DfDependencyCollector.collectTime=463386500, DfDependencyCollector.transformTime=5327499}
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving artifact org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:pom:1.0.1.wso2v1 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:pom:1.0.1.wso2v1 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Writing tracking file 'C:\Users\vikum\.m2\repository\org\apache\geronimo\specs\wso2\geronimo-stax-api_1.0_spec\1.0.1.wso2v1\geronimo-stax-api_1.0_spec-1.0.1.wso2v1.pom.lastUpdated'
+[DEBUG] Resolving artifact commons-io.wso2:commons-io:pom:2.4.0.wso2v1 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact commons-io.wso2:commons-io:pom:2.4.0.wso2v1 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Writing tracking file 'C:\Users\vikum\.m2\repository\commons-io\wso2\commons-io\2.4.0.wso2v1\commons-io-2.4.0.wso2v1.pom.lastUpdated'
+[DEBUG] Resolving artifact org.wso2.maven:maven-stratos-plugin:pom:2.1.0 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Resolving artifact org.wso2.maven:maven-stratos-plugin:pom:2.1.0 from [maven-default-http-blocker (http://0.0.0.0/, default, releases+snapshots, blocked), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Writing tracking file 'C:\Users\vikum\.m2\repository\org\wso2\maven\maven-stratos-plugin\2.1.0\maven-stratos-plugin-2.1.0.pom.lastUpdated'
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=739901, ConflictMarker.markTime=353400, ConflictMarker.nodeCount=181, ConflictIdSorter.graphTime=557001, ConflictIdSorter.topsortTime=104100, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2981900, ConflictResolver.conflictItemCount=110, DfDependencyCollector.collectTime=134337300, DfDependencyCollector.transformTime=4804100}
+[DEBUG] Looking up lifecycle mappings for packaging carbon/application from ClassRealm[plexus.core, parent: null]
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Unresolveable build extension: Plugin org.wso2.maven:wso2-esb-api-plugin:5.2.42 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+	Failed to read artifact descriptor for org.wso2.maven:org.wso2.maven.esb:jar:2.1.0
+ @ 
+[ERROR] Unresolveable build extension: Plugin org.wso2.maven:maven-car-plugin:5.2.42 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+	Failed to read artifact descriptor for commons-io.wso2:commons-io:jar:2.4.0.wso2v1
+	Failed to read artifact descriptor for org.wso2.maven:maven-stratos-plugin:jar:2.1.0
+ @ 
+[ERROR] Unknown packaging: carbon/application @ line 13, column 14
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] Unresolveable build extension: Plugin org.wso2.maven:wso2-esb-api-plugin:5.2.42 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+	Failed to read artifact descriptor for org.wso2.maven:org.wso2.maven.esb:jar:2.1.0
+ @ 
+[ERROR] Unresolveable build extension: Plugin org.wso2.maven:maven-car-plugin:5.2.42 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+	Failed to read artifact descriptor for commons-io.wso2:commons-io:jar:2.4.0.wso2v1
+	Failed to read artifact descriptor for org.wso2.maven:maven-stratos-plugin:jar:2.1.0
+ @ 
+[ERROR] Unknown packaging: carbon/application @ line 13, column 14
+
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:389)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR]   
+[ERROR]   The project com.threadsync.integration:ThreadSyncConfigs:1.0.0-SNAPSHOT (C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\pom.xml) has 1 error
+[ERROR]     Unresolveable build extension: Plugin org.wso2.maven:wso2-esb-api-plugin:5.2.42 or one of its dependencies could not be resolved:
+[ERROR]     	Failed to read artifact descriptor for org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+[ERROR]     	Failed to read artifact descriptor for org.wso2.maven:org.wso2.maven.esb:jar:2.1.0: Failed to collect dependencies at org.wso2.maven:wso2-esb-api-plugin:jar:5.2.42 -> org.wso2.maven:org.wso2.maven.capp:jar:5.2.42 -> org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4: The following artifacts could not be resolved: org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 (present, but unavailable): Could not transfer artifact org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/, default, releases+snapshots), wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/, default, snapshots)]
+[ERROR]     -> [Help 2]
+org.apache.maven.plugin.PluginManagerException: Plugin org.wso2.maven:wso2-esb-api-plugin:5.2.42 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+	Failed to read artifact descriptor for org.wso2.maven:org.wso2.maven.esb:jar:2.1.0
+
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:792)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.PluginResolutionException: Plugin org.wso2.maven:wso2-esb-api-plugin:5.2.42 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+	Failed to read artifact descriptor for org.wso2.maven:org.wso2.maven.esb:jar:2.1.0
+
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:226)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.collection.DependencyCollectionException: Failed to collect dependencies at org.wso2.maven:wso2-esb-api-plugin:jar:5.2.42 -> org.wso2.maven:org.wso2.maven.capp:jar:5.2.42 -> org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:260)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.resolution.ArtifactDescriptorException: Failed to read artifact descriptor for org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:254)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:183)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 (present, but unavailable): Could not transfer artifact org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/, default, releases+snapshots), wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/, default, snapshots)]
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:473)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:261)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:183)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.apache.ws.commons.axiom.wso2:axiom:pom:1.2.11.wso2v4 from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/, default, releases+snapshots), wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/, default, snapshots)]
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:541)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:449)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:261)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:183)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.transfer.NoRepositoryConnectorException: Blocked mirror for repositories: [wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/, default, releases+snapshots), wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/, default, snapshots)]
+    at org.eclipse.aether.internal.impl.DefaultRepositoryConnectorProvider.newRepositoryConnector (DefaultRepositoryConnectorProvider.java:108)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:536)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:449)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:261)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:183)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doRecurse (DfDependencyCollector.java:343)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:277)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR]   
+[ERROR]   The project com.threadsync.integration:ThreadSyncCompositeExporter:1.0.0-SNAPSHOT (C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncCompositeExporter\pom.xml) has 2 errors
+[ERROR]     Unresolveable build extension: Plugin org.wso2.maven:maven-car-plugin:5.2.42 or one of its dependencies could not be resolved:
+[ERROR]     	Failed to read artifact descriptor for org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+[ERROR]     	Failed to read artifact descriptor for commons-io.wso2:commons-io:jar:2.4.0.wso2v1
+[ERROR]     	Failed to read artifact descriptor for org.wso2.maven:maven-stratos-plugin:jar:2.1.0: Failed to collect dependencies at org.wso2.maven:maven-car-plugin:jar:5.2.42 -> org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1: The following artifacts could not be resolved: org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:pom:1.0.1.wso2v1 (absent): Could not transfer artifact org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:pom:1.0.1.wso2v1 from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/, default, releases+snapshots), wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/, default, snapshots)]
+[ERROR]     -> [Help 2]
+org.apache.maven.plugin.PluginManagerException: Plugin org.wso2.maven:maven-car-plugin:5.2.42 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+	Failed to read artifact descriptor for commons-io.wso2:commons-io:jar:2.4.0.wso2v1
+	Failed to read artifact descriptor for org.wso2.maven:maven-stratos-plugin:jar:2.1.0
+
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:792)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.PluginResolutionException: Plugin org.wso2.maven:maven-car-plugin:5.2.42 or one of its dependencies could not be resolved:
+	Failed to read artifact descriptor for org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+	Failed to read artifact descriptor for commons-io.wso2:commons-io:jar:2.4.0.wso2v1
+	Failed to read artifact descriptor for org.wso2.maven:maven-stratos-plugin:jar:2.1.0
+
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:226)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.collection.DependencyCollectionException: Failed to collect dependencies at org.wso2.maven:maven-car-plugin:jar:5.2.42 -> org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:260)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.resolution.ArtifactDescriptorException: Failed to read artifact descriptor for org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:254)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:183)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.resolution.ArtifactResolutionException: The following artifacts could not be resolved: org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:pom:1.0.1.wso2v1 (absent): Could not transfer artifact org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:pom:1.0.1.wso2v1 from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/, default, releases+snapshots), wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/, default, snapshots)]
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:473)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:261)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:183)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:pom:1.0.1.wso2v1 from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/, default, releases+snapshots), wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/, default, snapshots)]
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:541)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:449)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:261)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:183)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.eclipse.aether.transfer.NoRepositoryConnectorException: Blocked mirror for repositories: [wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/, default, releases+snapshots), wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/, default, snapshots)]
+    at org.eclipse.aether.internal.impl.DefaultRepositoryConnectorProvider.newRepositoryConnector (DefaultRepositoryConnectorProvider.java:108)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads (DefaultArtifactResolver.java:536)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve (DefaultArtifactResolver.java:449)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts (DefaultArtifactResolver.java:261)
+    at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact (DefaultArtifactResolver.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.loadPom (DefaultArtifactDescriptorReader.java:243)
+    at org.apache.maven.repository.internal.DefaultArtifactDescriptorReader.readArtifactDescriptor (DefaultArtifactDescriptorReader.java:183)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.resolveCachedArtifactDescriptor (DfDependencyCollector.java:382)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.getArtifactDescriptorResult (DfDependencyCollector.java:368)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:218)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.processDependency (DfDependencyCollector.java:156)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.process (DfDependencyCollector.java:138)
+    at org.eclipse.aether.internal.impl.collect.df.DfDependencyCollector.doCollectDependencies (DfDependencyCollector.java:108)
+    at org.eclipse.aether.internal.impl.collect.DependencyCollectorDelegate.collectDependencies (DependencyCollectorDelegate.java:222)
+    at org.eclipse.aether.internal.impl.collect.DefaultDependencyCollector.collectDependencies (DefaultDependencyCollector.java:87)
+    at org.eclipse.aether.internal.impl.DefaultRepositorySystem.collectDependencies (DefaultRepositorySystem.java:306)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolveInternal (DefaultPluginDependenciesResolver.java:216)
+    at org.apache.maven.plugin.internal.DefaultPluginDependenciesResolver.resolve (DefaultPluginDependenciesResolver.java:169)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.resolveExtensionArtifacts (DefaultMavenPluginManager.java:841)
+    at org.apache.maven.plugin.internal.DefaultMavenPluginManager.setupExtensionsRealm (DefaultMavenPluginManager.java:787)
+    at org.apache.maven.project.DefaultProjectBuildingHelper.createProjectRealm (DefaultProjectBuildingHelper.java:177)
+    at org.apache.maven.project.DefaultModelBuildingListener.buildExtensionsAssembled (DefaultModelBuildingListener.java:92)
+    at org.apache.maven.model.building.ModelBuildingEventCatapult$1.fire (ModelBuildingEventCatapult.java:40)
+    at org.apache.maven.model.building.DefaultModelBuilder.fireEvent (DefaultModelBuilder.java:1293)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:516)
+    at org.apache.maven.model.building.DefaultModelBuilder.build (DefaultModelBuilder.java:497)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:612)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:630)
+    at org.apache.maven.project.DefaultProjectBuilder.build (DefaultProjectBuilder.java:375)
+    at org.apache.maven.graph.DefaultGraphBuilder.collectProjects (DefaultGraphBuilder.java:351)
+    at org.apache.maven.graph.DefaultGraphBuilder.getProjectsForMavenReactor (DefaultGraphBuilder.java:342)
+    at org.apache.maven.graph.DefaultGraphBuilder.build (DefaultGraphBuilder.java:76)
+    at org.apache.maven.DefaultMaven.buildGraph (DefaultMaven.java:448)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:197)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR]     Unknown packaging: carbon/application @ line 13, column 14
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/PluginManagerException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory

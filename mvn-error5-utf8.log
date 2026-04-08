@@ -1,0 +1,939 @@
+﻿Apache Maven 3.9.12 (848fbb4bf2d427b72bdb2471c22fced7ebd9a7a1)
+Maven home: C:\Program Files\apache-maven-3.9.12
+Java version: 17.0.17, vendor: Eclipse Adoptium, runtime: C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Program Files\apache-maven-3.9.12\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\vikum\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Program Files\apache-maven-3.9.12\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\vikum\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\vikum\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\vikum\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for wso2-maven2-repository-1 (http://dist.wso2.org/maven2).
+[DEBUG] Extension realms for project wso2.sampleHelloWorld:hello:pom:1.0.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Creating adapter using nameMapper 'gaecv' and factory 'rwlock-local'
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus-snapshots (http://nexus.codehaus.org/snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for central (http://repo1.maven.org/maven2).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=1653400, ConflictMarker.markTime=383100, ConflictMarker.nodeCount=136, ConflictIdSorter.graphTime=1237900, ConflictIdSorter.topsortTime=1647200, ConflictIdSorter.conflictIdCount=35, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=10019100, ConflictResolver.conflictItemCount=78, DfDependencyCollector.collectTime=611403399, DfDependencyCollector.transformTime=17905001}
+[DEBUG] org.codehaus.mojo:exec-maven-plugin:jar:1.4.0
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.11:test (scope managed from default) (version managed from default)
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    org.apache.commons:commons-exec:jar:1.3:compile
+[DEBUG] Created new class realm extension>org.codehaus.mojo:exec-maven-plugin:1.4.0
+[DEBUG] Importing foreign packages into class realm extension>org.codehaus.mojo:exec-maven-plugin:1.4.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.codehaus.mojo:exec-maven-plugin:1.4.0
+[DEBUG]   Included: org.codehaus.mojo:exec-maven-plugin:jar:1.4.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.3
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for wso2-nexus (http://maven.wso2.org/nexus/content/groups/wso2-public/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for wso2.releases (http://maven.wso2.org/nexus/content/repositories/releases/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for wso2.snapshots (http://maven.wso2.org/nexus/content/repositories/snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache-snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus-snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=559600, ConflictMarker.markTime=225699, ConflictMarker.nodeCount=156, ConflictIdSorter.graphTime=397100, ConflictIdSorter.topsortTime=48500, ConflictIdSorter.conflictIdCount=34, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2991100, ConflictResolver.conflictItemCount=85, DfDependencyCollector.collectTime=352000600, DfDependencyCollector.transformTime=4267799}
+[DEBUG] org.wso2.maven:wso2-esb-api-plugin:jar:5.2.42
+[DEBUG]    com.sun.activation:javax.activation:jar:1.2.0:runtime
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.2:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.4:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.2:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.7:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:1.2:compile
+[DEBUG]    org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.1:compile
+[DEBUG]    org.wso2.maven:org.wso2.maven.capp:jar:5.2.42:compile
+[DEBUG]       org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4:compile
+[DEBUG]       org.wso2.maven:org.wso2.maven.utils:jar:5.2.42:compile (version managed from default)
+[DEBUG]       org.wso2.maven:org.wso2.maven.core:jar:5.2.42:compile (version managed from default)
+[DEBUG]    org.wso2.maven:org.wso2.maven.esb:jar:2.1.0:compile
+[DEBUG] Created new class realm extension>org.wso2.maven:wso2-esb-api-plugin:5.2.42
+[DEBUG] Importing foreign packages into class realm extension>org.wso2.maven:wso2-esb-api-plugin:5.2.42
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.wso2.maven:wso2-esb-api-plugin:5.2.42
+[DEBUG]   Included: org.wso2.maven:wso2-esb-api-plugin:jar:5.2.42
+[DEBUG]   Included: com.sun.activation:javax.activation:jar:1.2.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.4
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.2
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:1.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.1
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.capp:jar:5.2.42
+[DEBUG]   Included: org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.utils:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.core:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.esb:jar:2.1.0
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=479100, ConflictMarker.markTime=181500, ConflictMarker.nodeCount=156, ConflictIdSorter.graphTime=361200, ConflictIdSorter.topsortTime=48000, ConflictIdSorter.conflictIdCount=34, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1601100, ConflictResolver.conflictItemCount=85, DfDependencyCollector.collectTime=17527500, DfDependencyCollector.transformTime=2712900}
+[DEBUG] org.wso2.maven:wso2-esb-metadata-plugin:jar:5.2.42
+[DEBUG]    com.sun.activation:javax.activation:jar:1.2.0:runtime
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.2:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.4:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.2:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.7:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:1.2:compile
+[DEBUG]    org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.1:compile
+[DEBUG]    org.wso2.maven:org.wso2.maven.capp:jar:5.2.42:compile
+[DEBUG]       org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4:compile
+[DEBUG]       org.wso2.maven:org.wso2.maven.utils:jar:5.2.42:compile (version managed from default)
+[DEBUG]       org.wso2.maven:org.wso2.maven.core:jar:5.2.42:compile (version managed from default)
+[DEBUG]    org.wso2.maven:org.wso2.maven.esb:jar:2.1.0:compile
+[DEBUG] Created new class realm extension>org.wso2.maven:wso2-esb-metadata-plugin:5.2.42
+[DEBUG] Importing foreign packages into class realm extension>org.wso2.maven:wso2-esb-metadata-plugin:5.2.42
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.wso2.maven:wso2-esb-metadata-plugin:5.2.42
+[DEBUG]   Included: org.wso2.maven:wso2-esb-metadata-plugin:jar:5.2.42
+[DEBUG]   Included: com.sun.activation:javax.activation:jar:1.2.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.4
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.2
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:1.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.1
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.capp:jar:5.2.42
+[DEBUG]   Included: org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.utils:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.core:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.esb:jar:2.1.0
+[DEBUG] Extension realms for project wso2.sampleHelloWorld:ThreadSyncConfigs:pom:1.0.0-SNAPSHOT: [ClassRealm[extension>org.codehaus.mojo:exec-maven-plugin:1.4.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44], ClassRealm[extension>org.wso2.maven:wso2-esb-api-plugin:5.2.42, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44], ClassRealm[extension>org.wso2.maven:wso2-esb-metadata-plugin:5.2.42, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44]]
+[DEBUG] Created new class realm project>wso2.sampleHelloWorld:ThreadSyncConfigs:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm project>wso2.sampleHelloWorld:ThreadSyncConfigs:1.0.0-SNAPSHOT
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[project>wso2.sampleHelloWorld:ThreadSyncConfigs:1.0.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for wso2-nexus (http://dist.wso2.org/nexus/content/groups/wso2-public).
+[WARNING] 1 problem was encountered while building the effective model for org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1 during dependency collection step for plugin. Path to offending node from root:
+ -> org.wso2.maven:maven-car-plugin:jar:5.2.42 ()
+ => org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1 (compile)
+Problem
+* 'profiles.profile.id' Duplicate activation for profile product-wsas @ org.wso2.carbon:carbon-orbit-parent:3.1.0
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache-incubator (http://people.apache.org/repo/m2-incubating-repository/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus (http://repository.codehaus.org).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=1057600, ConflictMarker.markTime=517100, ConflictMarker.nodeCount=389, ConflictIdSorter.graphTime=327800, ConflictIdSorter.topsortTime=137600, ConflictIdSorter.conflictIdCount=79, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5695299, ConflictResolver.conflictItemCount=182, DfDependencyCollector.collectTime=367125300, DfDependencyCollector.transformTime=7812600}
+[DEBUG] org.wso2.maven:maven-car-plugin:jar:5.2.42
+[DEBUG]    com.sun.activation:javax.activation:jar:1.2.0:runtime
+[DEBUG]    biz.aQute:bndlib:jar:0.0.357:compile
+[DEBUG]    net.sf.kxml:kxml2:jar:2.2.2:compile
+[DEBUG]       xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]    org.apache.felix:org.apache.felix.bundlerepository:jar:1.6.2:compile
+[DEBUG]       org.osgi:org.osgi.core:jar:4.1.0:compile
+[DEBUG]       org.easymock:easymock:jar:2.4:compile
+[DEBUG]    org.apache.felix:org.osgi.core:jar:1.0.0:compile
+[DEBUG]    org.apache.felix:org.osgi.service.obr:jar:1.0.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.2:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.4:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.2:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.7:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:1.2:compile
+[DEBUG]    org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.1:compile
+[DEBUG]    org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4:compile
+[DEBUG]    org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1:compile
+[DEBUG]       org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+[DEBUG]       org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile
+[DEBUG]    commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]    org.wso2.maven:org.wso2.maven.capp:jar:5.2.42:compile
+[DEBUG]    org.wso2.maven:org.wso2.maven.core:jar:5.2.42:compile
+[DEBUG]    org.wso2.maven:org.wso2.maven.utils:jar:5.2.42:compile
+[DEBUG]    org.wso2.maven:maven-synapse-plugin:jar:5.2.42:compile
+[DEBUG]       commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
+[DEBUG]    org.wso2.maven:maven-stratos-plugin:jar:2.1.0:compile
+[DEBUG]       org.apache.axis2.wso2:axis2-client:jar:1.6.1.wso2v9:compile
+[DEBUG]          org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v2:compile
+[DEBUG]          org.apache.neethi.wso2:neethi:jar:2.0.4.wso2v4:compile
+[DEBUG]          org.apache.axis2.wso2:axis2-json:jar:1.6.1.wso2v9:compile
+[DEBUG]          org.apache.woden.wso2:woden:jar:1.0.0.M8-wso2v1:compile
+[DEBUG]          wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v2:compile
+[DEBUG]             wsdl4j:wsdl4j:jar:1.6.2:compile
+[DEBUG]          org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2:compile
+[DEBUG]             org.apache.ws.commons.axiom:axiom-api:jar:1.2.11:compile
+[DEBUG]                org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2:compile
+[DEBUG]                org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6:compile
+[DEBUG]                jaxen:jaxen:jar:1.1.1:compile
+[DEBUG]             org.apache.ws.commons.axiom:axiom-impl:jar:1.2.20:compile (version managed from default)
+[DEBUG]                org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile
+[DEBUG]                   org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+[DEBUG]             jline:jline:jar:0.9.94:compile
+[DEBUG]             commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]                commons-lang:commons-lang:jar:1.0:compile
+[DEBUG]             commons-io:commons-io:jar:2.4:compile (version managed from default)
+[DEBUG]             commons-codec:commons-codec:jar:1.12:compile (version managed from default)
+[DEBUG]          org.apache.httpcomponents.wso2:httpcore:jar:4.2.3.wso2v1:compile
+[DEBUG]          commons-fileupload.wso2:commons-fileupload:jar:1.2.0.wso2v1:compile
+[DEBUG]          commons-codec.wso2:commons-codec:jar:1.3.0.wso2v1:compile
+[DEBUG]          commons-httpclient.wso2:commons-httpclient:jar:3.1.0.wso2v1:compile
+[DEBUG]             org.apache.commons.ssl:not-yet-commons-ssl:jar:0.3.9:compile
+[DEBUG]       org.wso2.carbon:org.wso2.carbon.authenticator.stub:jar:3.2.0:compile
+[DEBUG]          org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v1:compile
+[DEBUG]       org.wso2.carbon:org.wso2.carbon.roles.mgt.stub:jar:3.2.0:compile
+[DEBUG]       commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG] Created new class realm extension>org.wso2.maven:maven-car-plugin:5.2.42
+[DEBUG] Importing foreign packages into class realm extension>org.wso2.maven:maven-car-plugin:5.2.42
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.wso2.maven:maven-car-plugin:5.2.42
+[DEBUG]   Included: org.wso2.maven:maven-car-plugin:jar:5.2.42
+[DEBUG]   Included: com.sun.activation:javax.activation:jar:1.2.0
+[DEBUG]   Included: biz.aQute:bndlib:jar:0.0.357
+[DEBUG]   Included: net.sf.kxml:kxml2:jar:2.2.2
+[DEBUG]   Included: xmlpull:xmlpull:jar:1.1.3.1
+[DEBUG]   Included: org.apache.felix:org.apache.felix.bundlerepository:jar:1.6.2
+[DEBUG]   Included: org.osgi:org.osgi.core:jar:4.1.0
+[DEBUG]   Included: org.easymock:easymock:jar:2.4
+[DEBUG]   Included: org.apache.felix:org.osgi.core:jar:1.0.0
+[DEBUG]   Included: org.apache.felix:org.osgi.service.obr:jar:1.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.4
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.2
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:1.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.1
+[DEBUG]   Included: org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+[DEBUG]   Included: org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1
+[DEBUG]   Included: org.codehaus.woodstox:wstx-asl:jar:3.2.9
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1.1
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.capp:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.core:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.utils:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:maven-synapse-plugin:jar:5.2.42
+[DEBUG]   Included: commons-io.wso2:commons-io:jar:2.4.0.wso2v1
+[DEBUG]   Included: org.wso2.maven:maven-stratos-plugin:jar:2.1.0
+[DEBUG]   Included: org.apache.axis2.wso2:axis2-client:jar:1.6.1.wso2v9
+[DEBUG]   Included: org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v2
+[DEBUG]   Included: org.apache.neethi.wso2:neethi:jar:2.0.4.wso2v4
+[DEBUG]   Included: org.apache.axis2.wso2:axis2-json:jar:1.6.1.wso2v9
+[DEBUG]   Included: org.apache.woden.wso2:woden:jar:1.0.0.M8-wso2v1
+[DEBUG]   Included: wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v2
+[DEBUG]   Included: wsdl4j:wsdl4j:jar:1.6.2
+[DEBUG]   Included: org.wso2.securevault:org.wso2.securevault:jar:1.0.0-wso2v2
+[DEBUG]   Included: org.apache.ws.commons.axiom:axiom-api:jar:1.2.11
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.0.2
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:jar:1.6
+[DEBUG]   Included: jaxen:jaxen:jar:1.1.1
+[DEBUG]   Included: org.apache.ws.commons.axiom:axiom-impl:jar:1.2.20
+[DEBUG]   Included: org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0
+[DEBUG]   Included: org.codehaus.woodstox:stax2-api:jar:3.1.1
+[DEBUG]   Included: jline:jline:jar:0.9.94
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: commons-lang:commons-lang:jar:1.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.12
+[DEBUG]   Included: org.apache.httpcomponents.wso2:httpcore:jar:4.2.3.wso2v1
+[DEBUG]   Included: commons-fileupload.wso2:commons-fileupload:jar:1.2.0.wso2v1
+[DEBUG]   Included: commons-codec.wso2:commons-codec:jar:1.3.0.wso2v1
+[DEBUG]   Included: commons-httpclient.wso2:commons-httpclient:jar:3.1.0.wso2v1
+[DEBUG]   Included: org.apache.commons.ssl:not-yet-commons-ssl:jar:0.3.9
+[DEBUG]   Included: org.wso2.carbon:org.wso2.carbon.authenticator.stub:jar:3.2.0
+[DEBUG]   Included: org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v1
+[DEBUG]   Included: org.wso2.carbon:org.wso2.carbon.roles.mgt.stub:jar:3.2.0
+[DEBUG]   Included: commons-httpclient:commons-httpclient:jar:3.1
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=348100, ConflictMarker.markTime=206700, ConflictMarker.nodeCount=182, ConflictIdSorter.graphTime=120399, ConflictIdSorter.topsortTime=109501, ConflictIdSorter.conflictIdCount=63, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1595399, ConflictResolver.conflictItemCount=111, DfDependencyCollector.collectTime=70704900, DfDependencyCollector.transformTime=2445000}
+[DEBUG] org.wso2.maven:maven-car-deploy-plugin:jar:5.2.42
+[DEBUG]    com.sun.activation:javax.activation:jar:1.2.0:runtime
+[DEBUG]    biz.aQute:bndlib:jar:0.0.357:compile
+[DEBUG]    net.sf.kxml:kxml2:jar:2.2.2:compile
+[DEBUG]       xmlpull:xmlpull:jar:1.1.3.1:compile
+[DEBUG]    org.apache.felix:org.apache.felix.bundlerepository:jar:1.6.2:compile
+[DEBUG]       org.osgi:org.osgi.core:jar:4.1.0:compile
+[DEBUG]       org.easymock:easymock:jar:2.4:compile
+[DEBUG]    org.apache.felix:org.osgi.core:jar:1.0.0:compile
+[DEBUG]    org.apache.felix:org.osgi.service.obr:jar:1.0.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.2:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.4:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.2:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.7:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:1.2:compile
+[DEBUG]    org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.1:compile
+[DEBUG]    org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4:compile
+[DEBUG]    org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v3:compile
+[DEBUG]    org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1:compile
+[DEBUG]       org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+[DEBUG]       org.codehaus.woodstox:wstx-asl:jar:3.2.9:compile
+[DEBUG]    commons-logging:commons-logging:jar:1.1.1:compile
+[DEBUG]    org.wso2.maven:org.wso2.maven.capp:jar:5.2.42:compile
+[DEBUG]    org.wso2.maven:org.wso2.maven.core:jar:5.2.42:compile
+[DEBUG]    org.wso2.maven:org.wso2.maven.utils:jar:5.2.42:compile
+[DEBUG]    wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v2:compile
+[DEBUG]       wsdl4j:wsdl4j:jar:1.6.2:compile
+[DEBUG]    io.github.openfeign:feign-core:jar:11.0:compile
+[DEBUG]    io.github.openfeign:feign-gson:jar:11.0:compile
+[DEBUG]       com.google.code.gson:gson:jar:2.8.5:compile (version managed from default)
+[DEBUG]    io.github.openfeign.form:feign-form:jar:3.8.0:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.26:compile
+[DEBUG]    org.json.wso2:json:jar:3.0.0.wso2v1:compile
+[DEBUG]       org.json:json:jar:20140107:compile
+[DEBUG]    commons-io.wso2:commons-io:jar:2.4.0.wso2v1:compile
+[DEBUG]    org.apache.neethi.wso2:neethi:jar:2.0.4.wso2v3:compile
+[DEBUG]    org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v1:compile
+[DEBUG]       org.apache.ws.commons.schema:XmlSchema:jar:1.4.7-wso2v1:compile
+[DEBUG]    org.wso2.securevault:org.wso2.securevault:jar:1.0.0:compile
+[DEBUG]    commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]    commons-codec.wso2:commons-codec:jar:1.4.0.wso2v1:compile
+[DEBUG]    org.apache.httpcomponents:httpcore:jar:4.1:compile
+[DEBUG] Created new class realm extension>org.wso2.maven:maven-car-deploy-plugin:5.2.42
+[DEBUG] Importing foreign packages into class realm extension>org.wso2.maven:maven-car-deploy-plugin:5.2.42
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.wso2.maven:maven-car-deploy-plugin:5.2.42
+[DEBUG]   Included: org.wso2.maven:maven-car-deploy-plugin:jar:5.2.42
+[DEBUG]   Included: com.sun.activation:javax.activation:jar:1.2.0
+[DEBUG]   Included: biz.aQute:bndlib:jar:0.0.357
+[DEBUG]   Included: net.sf.kxml:kxml2:jar:2.2.2
+[DEBUG]   Included: xmlpull:xmlpull:jar:1.1.3.1
+[DEBUG]   Included: org.apache.felix:org.apache.felix.bundlerepository:jar:1.6.2
+[DEBUG]   Included: org.osgi:org.osgi.core:jar:4.1.0
+[DEBUG]   Included: org.easymock:easymock:jar:2.4
+[DEBUG]   Included: org.apache.felix:org.osgi.core:jar:1.0.0
+[DEBUG]   Included: org.apache.felix:org.osgi.service.obr:jar:1.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.4
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.2
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:1.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.1
+[DEBUG]   Included: org.apache.ws.commons.axiom.wso2:axiom:jar:1.2.11.wso2v4
+[DEBUG]   Included: org.apache.axis2.wso2:axis2:jar:1.6.1.wso2v3
+[DEBUG]   Included: org.apache.geronimo.specs.wso2:geronimo-stax-api_1.0_spec:jar:1.0.1.wso2v1
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1
+[DEBUG]   Included: org.codehaus.woodstox:wstx-asl:jar:3.2.9
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1.1
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.capp:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.core:jar:5.2.42
+[DEBUG]   Included: org.wso2.maven:org.wso2.maven.utils:jar:5.2.42
+[DEBUG]   Included: wsdl4j.wso2:wsdl4j:jar:1.6.2.wso2v2
+[DEBUG]   Included: wsdl4j:wsdl4j:jar:1.6.2
+[DEBUG]   Included: io.github.openfeign:feign-core:jar:11.0
+[DEBUG]   Included: io.github.openfeign:feign-gson:jar:11.0
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.8.5
+[DEBUG]   Included: io.github.openfeign.form:feign-form:jar:3.8.0
+[DEBUG]   Included: org.json.wso2:json:jar:3.0.0.wso2v1
+[DEBUG]   Included: org.json:json:jar:20140107
+[DEBUG]   Included: commons-io.wso2:commons-io:jar:2.4.0.wso2v1
+[DEBUG]   Included: org.apache.neethi.wso2:neethi:jar:2.0.4.wso2v3
+[DEBUG]   Included: org.apache.ws.commons.schema.wso2:XmlSchema:jar:1.4.7.wso2v1
+[DEBUG]   Included: org.apache.ws.commons.schema:XmlSchema:jar:1.4.7-wso2v1
+[DEBUG]   Included: org.wso2.securevault:org.wso2.securevault:jar:1.0.0
+[DEBUG]   Included: commons-httpclient:commons-httpclient:jar:3.1
+[DEBUG]   Included: commons-codec.wso2:commons-codec:jar:1.4.0.wso2v1
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.1
+[DEBUG] Extension realms for project wso2.sampleHelloWorld:ThreadSyncCompositeExporter:carbon/application:1.0.0-SNAPSHOT: [ClassRealm[extension>org.wso2.maven:maven-car-plugin:5.2.42, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44], ClassRealm[extension>org.wso2.maven:maven-car-deploy-plugin:5.2.42, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44]]
+[DEBUG] Created new class realm project>wso2.sampleHelloWorld:ThreadSyncCompositeExporter:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm project>wso2.sampleHelloWorld:ThreadSyncCompositeExporter:1.0.0-SNAPSHOT
+[DEBUG] Looking up lifecycle mappings for packaging carbon/application from ClassRealm[project>wso2.sampleHelloWorld:ThreadSyncCompositeExporter:1.0.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] hello                                                              [pom]
+[INFO] ThreadSyncConfigs                                                  [pom]
+[INFO] ThreadSyncCompositeExporter                         [carbon/application]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: wso2.sampleHelloWorld:hello:pom:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: wso2.sampleHelloWorld:ThreadSyncConfigs:pom:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: wso2.sampleHelloWorld:ThreadSyncCompositeExporter:carbon/application:1.0.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --------------------< wso2.sampleHelloWorld:hello >---------------------
+[INFO] Building hello 1.0.0-SNAPSHOT                                      [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       wso2.sampleHelloWorld:hello:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ hello ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=15800, ConflictMarker.markTime=18000, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=6400, ConflictIdSorter.topsortTime=13400, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=76000, ConflictResolver.conflictItemCount=3, DfDependencyCollector.collectTime=20409600, DfDependencyCollector.transformTime=147399}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[DEBUG]       commons-io:commons-io:jar:2.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean:default-clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\vikum\OneDrive\Desktop\Choreo\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fast = false
+[DEBUG]   (f) fastMode = background
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\vikum\OneDrive\Desktop\Choreo\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\vikum\OneDrive\Desktop\Choreo\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@43a4a9e5
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\vikum\OneDrive\Desktop\Choreo\target\test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory C:\Users\vikum\OneDrive\Desktop\Choreo\target
+[DEBUG] Skipping non-existing directory C:\Users\vikum\OneDrive\Desktop\Choreo\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\vikum\OneDrive\Desktop\Choreo\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\vikum\OneDrive\Desktop\Choreo\target\classes
+[INFO] 
+[INFO] --------------< wso2.sampleHelloWorld:ThreadSyncConfigs >---------------
+[INFO] Building ThreadSyncConfigs 1.0.0-SNAPSHOT                          [2/3]
+[INFO]   from ThreadSyncConfigs\pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       wso2.sampleHelloWorld:ThreadSyncConfigs:1.0.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [wso2-nexus (https://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [wso2-nexus (https://maven.wso2.org/nexus/content/groups/wso2-public/, default, releases+snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.wso2.maven:wso2-esb-api-plugin:5.2.42:pom-gen (api)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifactLocation>.</artifactLocation>
+  <moduleProject>${project.build.directory}/pom.xml</moduleProject>
+  <outputLocation>${project.build.directory}/artifacts</outputLocation>
+  <project default-value="${project}"/>
+  <typeList>${artifact.types}</typeList>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.wso2.maven:wso2-esb-metadata-plugin:5.2.42:pom-gen (metadata)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifactLocation>.</artifactLocation>
+  <moduleProject>${project.build.directory}/pom.xml</moduleProject>
+  <outputLocation>${project.build.directory}/artifacts</outputLocation>
+  <project default-value="${project}"/>
+  <typeList>${artifact.types}</typeList>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42:synapse-unit-test (synapse-unit-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <mavenTestSkip>false</mavenTestSkip>
+  <server>
+    <testServerType>${testServerType}</testServerType>
+    <testServerHost>${testServerHost}</testServerHost>
+    <testServerPort>${testServerPort}</testServerPort>
+    <testServerPath>${testServerPath}</testServerPath>${server}</server>
+  <testCasesFilePath>C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs/test/${testFile}</testCasesFilePath>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:exec-maven-plugin:1.4.0:exec (package)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <arguments>
+    <argument>clean</argument>
+    <argument>package</argument>
+    <argument>-Dmaven.test.skip=false</argument>
+  </arguments>
+  <basedir default-value="${basedir}"/>
+  <classpathScope default-value="runtime">${exec.classpathScope}</classpathScope>
+  <commandlineArgs>${exec.args}</commandlineArgs>
+  <executable>mvn</executable>
+  <longClasspath default-value="false">${exec.longClasspath}</longClasspath>
+  <outputFile>${exec.outputFile}</outputFile>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${exec.skip}</skip>
+  <sourceRoot>${sourceRoot}</sourceRoot>
+  <testSourceRoot>${testSourceRoot}</testSourceRoot>
+  <workingDirectory>C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp</workingDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=28500, ConflictMarker.markTime=21500, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=2000, ConflictIdSorter.topsortTime=6201, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=33400, ConflictResolver.conflictItemCount=0, DfDependencyCollector.collectTime=15500, DfDependencyCollector.transformTime=113100}
+[DEBUG] wso2.sampleHelloWorld:ThreadSyncConfigs:pom:1.0.0-SNAPSHOT
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ ThreadSyncConfigs ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=22700, ConflictMarker.markTime=19599, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=14000, ConflictIdSorter.topsortTime=22300, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=88800, ConflictResolver.conflictItemCount=3, DfDependencyCollector.collectTime=4851900, DfDependencyCollector.transformTime=184800}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[DEBUG]       commons-io:commons-io:jar:2.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0-1061010603
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0-1061010603
+[DEBUG]   Imported:  < project>wso2.sampleHelloWorld:ThreadSyncConfigs:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0-1061010603
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0-1061010603, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean:default-clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fast = false
+[DEBUG]   (f) fastMode = background
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\classes
+[DEBUG]   (f) reportDirectory = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@43a4a9e5
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp
+[INFO] Deleting file C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\pom.xml
+[INFO] Deleting directory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts
+[INFO] Deleting directory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp
+[DEBUG] Skipping non-existing directory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\classes
+[DEBUG] Skipping non-existing directory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\classes
+[INFO] 
+[INFO] --- wso2-esb-api:5.2.42:pom-gen (api) @ ThreadSyncConfigs ---
+[DEBUG] Loading mojo org.wso2.maven:wso2-esb-api-plugin:5.2.42:pom-gen from plugin realm ClassRealm[extension>org.wso2.maven:wso2-esb-api-plugin:5.2.42, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44]
+[DEBUG] Configuring mojo execution 'org.wso2.maven:wso2-esb-api-plugin:5.2.42:pom-gen:api' with basic configurator -->
+[DEBUG]   (s) artifactLocation = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs
+[DEBUG]   (s) moduleProject = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\pom.xml
+[DEBUG]   (s) outputLocation = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts
+[DEBUG]   (s) project = MavenProject: wso2.sampleHelloWorld:ThreadSyncConfigs:1.0.0-SNAPSHOT @ C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\pom.xml
+[DEBUG] -- end configuration --
+[INFO] 11:42:12 Artifacts list is not empty. Start processing
+[DEBUG] 11:42:12 Creating maven project for artifact 
+[INFO] Creating maven project for artifact OrderReceiptAPI:1.0.0...
+[DEBUG] 11:42:12 Trying to generate the Maven Project...
+[INFO] 	generating maven project...
+[DEBUG] 11:42:12 Maven Project generation completed
+[DEBUG] 11:42:12 Generated Maven project is not null
+[DEBUG] 11:42:12 copying resources...
+[INFO] 	copying resources...
+[DEBUG] 11:42:12 Module list is updated with new module.
+[DEBUG] 11:42:12 Maven project successfully updated with Repositories
+[DEBUG] 11:42:12 Maven projects successfully saved
+[INFO] 
+[INFO] --- wso2-esb-metadata:5.2.42:pom-gen (metadata) @ ThreadSyncConfigs ---
+[DEBUG] Loading mojo org.wso2.maven:wso2-esb-metadata-plugin:5.2.42:pom-gen from plugin realm ClassRealm[extension>org.wso2.maven:wso2-esb-metadata-plugin:5.2.42, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44]
+[DEBUG] Configuring mojo execution 'org.wso2.maven:wso2-esb-metadata-plugin:5.2.42:pom-gen:metadata' with basic configurator -->
+[DEBUG]   (s) artifactLocation = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs
+[DEBUG]   (s) moduleProject = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\pom.xml
+[DEBUG]   (s) outputLocation = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\target\capp\artifacts
+[DEBUG]   (s) project = MavenProject: wso2.sampleHelloWorld:ThreadSyncConfigs:1.0.0-SNAPSHOT @ C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs\pom.xml
+[DEBUG] -- end configuration --
+[INFO] 11:42:12 Artifacts list is not empty. Start processing
+[INFO] 
+[INFO] --- synapse-unit-test:5.2.42:synapse-unit-test (synapse-unit-test) @ ThreadSyncConfigs ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=69099, ConflictMarker.markTime=37001, ConflictMarker.nodeCount=24, ConflictIdSorter.graphTime=42500, ConflictIdSorter.topsortTime=84899, ConflictIdSorter.conflictIdCount=21, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=362600, ConflictResolver.conflictItemCount=24, DfDependencyCollector.collectTime=5983300, DfDependencyCollector.transformTime=631100}
+[DEBUG] org.wso2.maven:synapse-unit-test-maven-plugin:jar:5.2.42
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.4:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.4:compile
+[DEBUG]    org.apache.ws.commons.axiom:axiom-impl:jar:1.2.20:compile
+[DEBUG]       org.apache.ws.commons.axiom:axiom-api:jar:1.2.20:compile
+[DEBUG]          org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.1:compile
+[DEBUG]          jaxen:jaxen:jar:1.1.6:compile
+[DEBUG]          org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1:compile
+[DEBUG]          org.apache.james:apache-mime4j-core:jar:0.7.2:compile
+[DEBUG]       org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0:compile
+[DEBUG]          org.codehaus.woodstox:stax2-api:jar:3.1.1:compile
+[DEBUG]       commons-logging:commons-logging:jar:1.2:compile (version managed from default)
+[DEBUG]    com.google.code.gson:gson:jar:2.8.5:compile
+[DEBUG] Created new class realm plugin>org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42
+[DEBUG] Importing foreign packages into class realm plugin>org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42
+[DEBUG]   Imported:  < project>wso2.sampleHelloWorld:ThreadSyncConfigs:1.0.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42
+[DEBUG]   Included: org.wso2.maven:synapse-unit-test-maven-plugin:jar:5.2.42
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.4
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: org.apache.ws.commons.axiom:axiom-impl:jar:1.2.20
+[DEBUG]   Included: org.apache.ws.commons.axiom:axiom-api:jar:1.2.20
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-activation_1.1_spec:jar:1.1
+[DEBUG]   Included: jaxen:jaxen:jar:1.1.6
+[DEBUG]   Included: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:jar:1.0.1
+[DEBUG]   Included: org.apache.james:apache-mime4j-core:jar:0.7.2
+[DEBUG]   Included: org.codehaus.woodstox:woodstox-core-asl:jar:4.2.0
+[DEBUG]   Included: org.codehaus.woodstox:stax2-api:jar:3.1.1
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.2
+[DEBUG]   Included: com.google.code.gson:gson:jar:2.8.5
+[DEBUG] Loading mojo org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42:synapse-unit-test from plugin realm ClassRealm[plugin>org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44]
+[DEBUG] Configuring mojo execution 'org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42:synapse-unit-test:synapse-unit-test' with basic configurator -->
+[DEBUG]   (f) mavenTestSkip = false
+[DEBUG]   (f) server = org.wso2.synapse.unittest.SynapseServer@283ab206
+[DEBUG]   (f) testCasesFilePath = C:\Users\vikum\OneDrive\Desktop\Choreo\ThreadSyncConfigs/test/${testFile}
+[DEBUG] -- end configuration --
+[INFO] ------------------------------------------------------------------------
+[INFO] U N I T - T E S T S
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for hello 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] hello .............................................. SUCCESS [  0.125 s]
+[INFO] ThreadSyncConfigs .................................. FAILURE [  0.566 s]
+[INFO] ThreadSyncCompositeExporter ........................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.376 s
+[INFO] Finished at: 2026-04-08T11:42:12+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42:synapse-unit-test (synapse-unit-test) on project ThreadSyncConfigs: Exception occurred while running test cases: Cannot read the array length because "<local6>" is null -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.wso2.maven:synapse-unit-test-maven-plugin:5.2.42:synapse-unit-test (synapse-unit-test) on project ThreadSyncConfigs: Exception occurred while running test cases: Cannot read the array length because "<local6>" is null
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Exception occurred while running test cases: Cannot read the array length because "<local6>" is null
+    at org.wso2.synapse.unittest.UnitTestCasesMojo.execute (UnitTestCasesMojo.java:81)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :ThreadSyncConfigs
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
