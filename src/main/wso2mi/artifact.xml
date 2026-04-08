@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifacts>
+    <artifact name="OrderReceiptAPI" groupId="com.threadsync.integration.api" version="1.0.0" type="synapse/api" serverRole="MicroIntegrator">
+        <file>apis/OrderReceiptAPI.xml</file>
+    </artifact>
+    <artifact name="MockAIEnrichmentSequence" groupId="com.threadsync.integration.sequence" version="1.0.0" type="synapse/sequence" serverRole="MicroIntegrator">
+        <file>sequences/MockAIEnrichmentSequence.xml</file>
+    </artifact>
+    <artifact name="SupplierRouterSequence" groupId="com.threadsync.integration.sequence" version="1.0.0" type="synapse/sequence" serverRole="MicroIntegrator">
+        <file>sequences/SupplierRouterSequence.xml</file>
+    </artifact>
+</artifacts>
